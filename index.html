@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <title>Frontend Mentor | News Homepage</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
 
-
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__container container">
+                <a class="navbar__brand" href="#">
+                    <img src="./assets/images/logo.svg" alt="Navbar logo" />
+                </a>
+                <button class="navbar__btn-open" type="button" id="navbarOpenBtn">
+                    <img src="./assets/images/icon-menu.svg" alt="Icon Open Menu">
+                </button>
+                <div class="nav-container" id="navContainer">
+                    <ul class="nav">
+                        <button class="nav__btn-close" type="button" id="navbarCloseBtn">
+                            <img src="./assets/images/icon-menu-close.svg" alt="Icon Close Menu">
+                        </button>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">New</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Popular</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Trending</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <script src="./assets/scripts/app.js"></script>
 </body>
