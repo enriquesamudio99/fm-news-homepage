@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    /** Font Family **/
+    --ff-inter: 'Inter', sans-serif;
+
+    /** Colors **/
+    /* Primary */
+    --clr-soft-orange: hsl(35, 77%, 62%);
+    --clr-soft-red: hsl(5, 85%, 63%);
+    /* Neutral */
+    --clr-off-white: hsl(36, 100%, 99%);
+    --clr-grayish-blue: hsl(233, 8%, 79%);
+    --clr-dark-grayish-blue: hsl(236, 13%, 42%);
+    --clr-very-dark-blue: hsl(240, 100%, 5%);
+
+    /** Font Sizes **/
+    --fs-heading-xl: 3.5rem;
+    --fs-heading-lg: 2.5rem;
+    --fs-heading-md: 2rem;
+    --fs-heading-sm: 1.25rem;
+    --fs-heading-xs: 1.125rem;
+    --fs-body: .9375rem;
+
+    /** Line Heights **/
+    --lh-heading-xl: 3.5rem;
+    --lh-heading-lg: 2.5rem;
+    --lh-heading-md: 2rem;
+    --lh-heading-sm: 1.5rem;
+    --lh-heading-xs: 1.5rem;
+    --lh-body: 1.625rem;
+}
